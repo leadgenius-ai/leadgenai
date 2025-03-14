@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/leadgenai/static/css/main.cfb2f666.css",
+    "main.js": "/leadgenai/static/js/main.0d34979d.js",
+    "static/js/453.b74be865.chunk.js": "/leadgenai/static/js/453.b74be865.chunk.js",
+    "index.html": "/leadgenai/index.html",
+    "main.cfb2f666.css.map": "/leadgenai/static/css/main.cfb2f666.css.map",
+    "main.0d34979d.js.map": "/leadgenai/static/js/main.0d34979d.js.map",
+    "453.b74be865.chunk.js.map": "/leadgenai/static/js/453.b74be865.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfb2f666.css",
+    "static/js/main.0d34979d.js"
+  ]
+}
