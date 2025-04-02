@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeadGenius AI - AI-Powered Precision Ad Targeting</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mobile-nav.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react@18/umd/react.production.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-router-dom@6/umd/react-router-dom.production.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-chartjs-2@5.2.0/dist/index.umd.js"></script>
+</head>
+<body>
+    <div id="app">
+        <nav class="nav-bar">
+            <div class="nav-content">
+                <Link to="/" className="logo">LeadGenius</Link>
+                <div class="nav-links">
+                    <Link to="/" className="nav-link">Home</Link>
+                    <Link to="/dashboard" className="nav-link">Dashboard</Link>
+                    <Link to="/data-collection" className="nav-link">Data Collection</Link>
+                    <Link to="/case-studies" className="nav-link">Case Studies</Link>
+                    <Link to="/contact" className="nav-link">Contact</Link>
+                </div>
+                <div class="mobile-nav">
+                    <button class="hamburger">
+                        <span class="hamburger-icon"></span>
+                    </button>
+                    <div class="mobile-menu">
+                        <Link to="/" className="mobile-link">Home</Link>
+                        <Link to="/dashboard" className="mobile-link">Dashboard</Link>
+                        <Link to="/data-collection" className="mobile-link">Data Collection</Link>
+                        <Link to="/case-studies" className="mobile-link">Case Studies</Link>
+                        <Link to="/contact" className="mobile-link">Contact</Link>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <div id="page-content"></div>
+        </main>
+    </div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html> 
